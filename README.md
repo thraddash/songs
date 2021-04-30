@@ -47,7 +47,7 @@ import App from './components/App';
 ReactDOM.render(<App />, document.querySelector('#root'));
 ```
 
-### /src/components/App.js
+### /src/components/App.js (Create functional App component)
  ```node
 import React from 'react';
 
