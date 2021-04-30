@@ -32,7 +32,16 @@
 ## About the Project
 - <b>[SongList component]</b> - hardcoded list of songs with select button (left side of the screen) 
 - <b>[SongDetail component]</b> - details song title, length of song (right side of the screen) 
-- <b>npm install --save redux react-redux</b>
+- <b>npm install --save redux react-redux</b>  
+
+Without Redux  
+|                |   <b>App</b>   |                  |
+| :------------  | :------------: | :----------------|
+|                | List of songs  |                  |
+|                | Selected Song  |                  |
+| List of songs  |                | Selected song    |
+| onSongSelect   |                |                  |
+| <b>SongList</b>|                | <b>SongDetail</b>|
 
 ## Initial Setup
 <details>
