@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+[![Node version][node-shield]][node-url]
+[![npm version][npm-shield]][npm-url]
+[![GitHub commit activity][commits-shield]][commits-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Songs React-Redux App
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#initial-setup">Initial Setup</a></li>
+        <li><a href="#b">B</a></li>
+        <li><a href="#c">C</a></li>
+        <li><a href="#d">D</a></li>
+        <li><a href="#e">E</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#starting-the-app">Starting the App</a></li>
 
-In the project directory, you can run:
+  </ol>
+</details>
 
-### `npm start`
+## About the Project
+- <b>[SongList component]</b> - hardcoded list of songs with select button (left side of the screen) 
+- <b>[SongDetail component]</b> - details song title, length of song (right side of the screen) 
+- <b>npm install --save redux react-redux</b>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Initial Setup
+<details>
+  <summary>(/src/index.js) (/src/App.js) (/public/index.html)</summary>
+  
+### /src/index.js
+```node
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ReactDOM.render(<App />, document.querySelector('#root'));
+```
 
-### `npm test`
+### /src/components/App.js
+ ```node
+import React from 'react';
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+const App = () => {
+    return <div>App</div>;
+};
 
-### `npm run build`
+export default App;
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### /public/index.html add stylesheet semantic ui css
+https://cdnjs.com/libraries/semantic-ui
+```node
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+```
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## B
+<details>
+  <summary>B</summary>
+  
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## C
+<details>
+  <summary>C</summary>
+  
+</details>
 
-### `npm run eject`
+## D
+<details>
+  <summary>D</summary>
+  
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## E
+<details>
+  <summary>E</summary>
+  
+</details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## Getting Started
+To get a local copy up and running follow these simple steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
+1. node v14.15.5 installed
+2. npm 6.14.11 installed
+3. npm install --save redux react-redux
+ 
+### Starting the App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/thraddash/widgets.git
+   ```
+2. npm install
+   ```
+   install npm modules from package.json
+   ```
+3. npm start
+   ```
+   Runs the app in the development mode.
+   Open http://localhost:3000 to view it in the browser.
+   ``` 
+  
+<!-- MARKDOWN LINKS & IMAGES -->
+[node-shield]: https://img.shields.io/badge/node-v14.15.5-blue
+[node-url]: https://nodejs.org/
+[npm-shield]: https://img.shields.io/badge/npm-v6.14.11-orange
+[npm-url]: https://www.npmjs.com/package/npm-install
+[commits-shield]: https://img.shields.io/badge/commits-30-green.svg
+[commits-url]: https://img.shields.io/github/commit-activity/y/thraddash/songs
+[product-screenshot]: /src/images/
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
