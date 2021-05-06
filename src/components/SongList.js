@@ -8,5 +8,12 @@ class SongList extends Component {
     }
 }
 
+// get state from Store, pass to mapStateToProp function to connect component
+const mapStateToProps = (state) => {
+    console.log(state);
+
+    return state;
+}
+
 //return connect function, envoke SongList
-export default connect()(SongList);
+export default connect(mapStateToProps)(SongList);
