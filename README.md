@@ -12,10 +12,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#initial-setup">Initial Setup</a></li>
-        <li><a href="#b">B</a></li>
-        <li><a href="#c">C</a></li>
-        <li><a href="#d">D</a></li>
-        <li><a href="#e">E</a></li>
       </ul>
     </li>
     <li>
@@ -74,30 +70,6 @@ https://cdnjs.com/libraries/semantic-ui
 ```
 </details>
 
-## B
-<details>
-  <summary>B</summary>
-  
-</details>
-
-## C
-<details>
-  <summary>C</summary>
-  
-</details>
-
-## D
-<details>
-  <summary>D</summary>
-  
-</details>
-
-## E
-<details>
-  <summary>E</summary>
-  
-</details>
-
 <!-- GETTING STARTED -->
 ## Getting Started
 To get a local copy up and running follow these simple steps.
@@ -128,7 +100,7 @@ To get a local copy up and running follow these simple steps.
 [node-url]: https://nodejs.org/
 [npm-shield]: https://img.shields.io/badge/npm-v6.14.11-orange
 [npm-url]: https://www.npmjs.com/package/npm-install
-[commits-shield]: https://img.shields.io/badge/commits-30-green.svg
+[commits-shield]: https://img.shields.io/badge/commits-21-green.svg
 [commits-url]: https://img.shields.io/github/commit-activity/y/thraddash/songs
 [product-screenshot]: /src/images/
 
