@@ -32,7 +32,7 @@ class SongList extends Component {
 
 // get state from Store, pass to mapStateToProp function to connect component
 const mapStateToProps = (state) => {
-    console.log(state);
+    //console.log(state);
     //redux way of getting data to props, similar to this.props === { songs: state.songs }    
     return { songs: state.songs };
 }
